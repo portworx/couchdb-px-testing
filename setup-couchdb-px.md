@@ -51,4 +51,5 @@ And ``test-run.sh`` script will run parallel multiple of the above script proces
 The following is the performance test result for  PX (single volume repl=1, ``locally attached``, ``remotely attached``) vs Standard local disk in ext4  (baseline) on Couchdb 2.0 (no couchdb replication and sharding).
 
 
-![](images/couchdb-pic-002.PNG)
+![](images/couchdb-px-testing-002.PNG)
+
