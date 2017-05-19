@@ -3,7 +3,7 @@
 ### Testing Couchdb 2.0 performance on PX volume 
 
 The following is the testing result of Couchdb 2.0 Docker container running on a single PX volume (50GB in size and no repl). 
-The test is conducted by  running simultaneous jobs to insert documents into the target couchdb database. Each job consists of inserting 1000 documents  and each document size is about 500 bytes message. The total payload of each job is about 5MB.
+The test is conducted in AWS using m3.large instance with standard EBS volume for PX cluster. The test script will run simultaneous jobs to insert documents into the target couchdb database. Each job consists of inserting 1000 documents  and each document size is about 500 bytes message. The total payload of each job is about 5MB.
 
 We run the Couchdb test on PX  in the following cases:
 

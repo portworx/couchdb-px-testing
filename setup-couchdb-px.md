@@ -1,6 +1,9 @@
 ## Running Couchdb 2.0 with PX
 
 ### Launch Couchdb containers
+-The original setup of this testing was done on AWS using m3.large instance and standard EBS volume.
+You can use bare metal, VM or other cloud services to run this testing .
+
 Deploy couchdb 2.0 using PX volume; create a simple PX volume ``couch_vol01``
 
     docker run --name couchdb-001 -d \
